@@ -30,7 +30,7 @@ public interface Stack<E> {
      * @return entferntes Element
      * @throws EmptyStackException
      */
-    public E pop() throws EmptyStackException, org.example.stack.EmptyStackException;
+    public E pop() throws EmptyStackException, stack.EmptyStackException;
 
     /**
      * Ueberprueft, ob der Stapel leer ist.
